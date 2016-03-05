@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_huawei_g750c",
+    "target_path": "vendor/huawei/g750c"
+  },
+  {
     "repository": "android_kernel_huawei_msm8628",
     "target_path": "kernel/huawei/msm8628"
   },
