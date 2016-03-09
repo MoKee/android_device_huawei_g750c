@@ -229,7 +229,7 @@
     </path>
 
 <!-- add -->
-    <path name="deep-buffer-playback speaker-and-headphones">
+    <path name="low-latency-playback speaker-and-headphones">
         <!-- <path name="speaker" /> -->
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
@@ -238,8 +238,8 @@
         <ctl name="SPK DAC Switch" value="1" />
         <ctl name="SPK DRV Volume" value="100" />
         <ctl name="COMP0 Switch" value="1" />
-        <!-- <path name="deep-buffer-playback" /> -->
-        <path name="deep-buffer-playback" />
+        <!-- <path name="low-latency-playback" /> -->
+        <path name="low-latency-playback" />
     </path>
 <!-- add end -->
 
