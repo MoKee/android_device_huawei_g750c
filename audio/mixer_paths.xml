@@ -232,7 +232,10 @@
     <path name="low-latency-playback speaker-and-headphones">
         <!-- <path name="speaker" /> -->
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
-        <ctl name="SLIM_0_RX Channels" value="One" />
+        <ctl name="SLIM RX2 MUX" value="AIF1_PB" />
+        <ctl name="SLIM_0_RX Channels" value="Two" />
+        <ctl name="RX1 MIX1 INP1" value="RX1" />
+        <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="RX4 MIX1 INP1" value="RX1" />
         <ctl name="RX4 Digital Volume" value="96" />
         <ctl name="SPK DAC Switch" value="1" />
