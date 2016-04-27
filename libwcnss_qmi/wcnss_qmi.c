@@ -26,7 +26,7 @@
 #define OEMINFO_PART "/dev/block/platform/msm_sdcc.1/by-name/oeminfo"
 
 #define BT_MAC_OFFSET 0x32200
-#define WIFI_MAC_OFFSET 0x1F4
+#define WIFI_MAC_OFFSET 0xFA0
 
 #define MAC_SIZE 6
 #define MAC_ADDRESS_STR "%02x:%02x:%02x:%02x:%02x:%02x"
