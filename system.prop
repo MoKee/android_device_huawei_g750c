@@ -71,6 +71,7 @@ persist.radio.multisim.config=dsds
 persist.radio.rat_on=combine
 ro.telephony.call_ring.multiple=false
 ro.telephony.ril.config=simactivation
+ro.telephony.default_network=10
 
 # Sensors
 ro.qualcomm.sensors.smd=true
