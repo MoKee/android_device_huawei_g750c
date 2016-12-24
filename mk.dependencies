@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_vendor_huawei_g750c",
+    "target_path": "vendor/huawei/g750c"
+  },
+  {
+    "repository": "android_kernel_huawei_msm8628",
+    "target_path": "kernel/huawei/msm8628"
+  },
+  {
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  }
+]

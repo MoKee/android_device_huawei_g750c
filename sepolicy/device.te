@@ -1,0 +1,3 @@
+type bk1_block_device, dev_type;
+type bluetooth_device, dev_type;
+type oeminfo_partition_device, dev_type;

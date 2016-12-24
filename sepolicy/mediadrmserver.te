@@ -1,0 +1,2 @@
+#============= mediadrmserver ==============
+allow mediadrmserver rootfs:lnk_file getattr;
