@@ -235,6 +235,7 @@ bin/libqmi_oem_main
 bin/netmgrd
 bin/qmiproxy
 bin/qmuxd
+bin/radish
 bin/rfs_access
 bin/rmt_oeminfo
 bin/rmt_storage
@@ -249,6 +250,7 @@ vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libqcci_legacy.so
