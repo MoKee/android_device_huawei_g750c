@@ -205,7 +205,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     WCNSS_cfg.dat \
     WCNSS_qcom_cfg.ini \
-    WCNSS_qcom_wlan_nv.bin
+    WCNSS_qcom_wlan_nv.bin \
+    WCNSS_qcom_wlan_load_nv.bin
 
 PRODUCT_PACKAGES += \
     hostapd \
