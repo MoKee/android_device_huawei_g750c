@@ -103,10 +103,6 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
-# GPS
-PRODUCT_PACKAGES += \
-    gps.msm8226
-
 # IPC router
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
