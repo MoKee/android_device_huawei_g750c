@@ -182,18 +182,25 @@ vendor/lib/libssd.so
 # GPS
 -app/com.qualcomm.location/com.qualcomm.location.apk
 -app/com.qualcomm.services.location/com.qualcomm.services.location.apk
+bin/gsiff_daemon
 bin/location-mq
 bin/xtwifi-client
 bin/xtwifi-inet-agent
 etc/permissions/com.qualcomm.location.xml
+etc/flp.conf
 etc/gps.conf
 etc/izat.conf
 etc/quipc.conf
 etc/sap.conf
 etc/xtwifi.conf
 etc/xtra_root_cert.pem
+lib/hw/gps.default.so
+lib/libgps.utils.so
+lib/libloc_core.so
+lib/libloc_eng.so
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
+vendor/lib/hw/flp.default.so
 vendor/lib/libalarmservice_jni.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
