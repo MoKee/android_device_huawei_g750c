@@ -274,6 +274,9 @@ vendor/lib/libxml.so
 # Quick charge
 bin/hvdcp
 
+# Charge
+bin/charger_monitor
+
 # Sensors
 bin/sensors.qcom
 lib/libhuawei_sensor_test.so

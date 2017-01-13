@@ -1,0 +1,5 @@
+allow untrusted_app charger_monitor:dir search;
+allow untrusted_app charger_monitor:file read;
+allow untrusted_app charger_monitor:file open;
+allow untrusted_app charger_monitor:file getattr;
+allow untrusted_app charger_monitor:dir getattr;

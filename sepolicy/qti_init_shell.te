@@ -1,0 +1,4 @@
+allow qti_init_shell ctl_default_prop:property_service set;
+allow qti_init_shell sysfs_battery_supply:dir search;
+allow qti_init_shell sysfs_battery_supply:file getattr;
+allow qti_init_shell sysfs_battery_supply:file setattr;

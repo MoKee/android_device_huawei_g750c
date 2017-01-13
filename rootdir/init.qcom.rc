@@ -502,3 +502,15 @@ service ril-daemon3 /system/bin/rild -c 3
     group radio cache inet misc audio sdcard_r sdcard_rw diag qcom_diag log
 
 #add for dsda end
+
+# fix charge
+service qcom-sh /system/bin/sh /init.qcom.sh
+    class late_start
+    user root
+    oneshot
+
+service charger_monitor /system/bin/charger_monitor
+    user system
+    group system
+    disabled
+# fix charge end

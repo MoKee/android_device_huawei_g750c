@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc \
-    init.qcom.ril.sh
+    init.qcom.ril.sh \
+    init.qcom.sh
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
