@@ -48,6 +48,9 @@ on init
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
 
+    #Zram
+    write /proc/sys/vm/page-cluster 0
+
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
@@ -110,6 +113,7 @@ on boot
 
 on fs
     mount_all fstab.qcom
+    swapon_all fstab.qcom
     restorecon_recursive /persist
 
 # msm specific files that need to be created on /data
