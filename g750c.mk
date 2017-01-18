@@ -103,8 +103,7 @@ PRODUCT_PACKAGES += \
 
 # Keylayouts and Keychars
 PRODUCT_COPY_FILES += \
-    device/huawei/g750c/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/huawei/g750c/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
+    device/huawei/g750c/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 # Media
 PRODUCT_PACKAGES += \
