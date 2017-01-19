@@ -10,3 +10,8 @@ allow qti_init_shell hci_attach_dev:chr_file ioctl;
 allow qti_init_shell bluetooth_data_file:file read;
 allow qti_init_shell btnvtool_exec:file execute_no_trans;
 allow qti_init_shell bluetooth_data_file:file { getattr open };
+#============= qti_init_shell charger_monitor==============
+allow qti_init_shell ctl_default_prop:property_service set;
+allow qti_init_shell sysfs_battery_supply:dir search;
+allow qti_init_shell sysfs_battery_supply:file getattr;
+allow qti_init_shell sysfs_battery_supply:file setattr;

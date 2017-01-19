@@ -329,3 +329,6 @@ etc/firmware/wcnss.mdt
 
 # Quick charge
 bin/hvdcp
+
+# Charge
+bin/charger_monitor
