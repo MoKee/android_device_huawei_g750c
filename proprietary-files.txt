@@ -326,3 +326,6 @@ etc/firmware/wcnss.b08
 etc/firmware/wcnss.b09
 etc/firmware/wcnss.mdt
 -lib/libqminvapi.so
+
+# Quick charge
+bin/hvdcp
