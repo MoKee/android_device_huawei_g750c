@@ -72,6 +72,7 @@ persist.radio.rat_on=combine
 ro.telephony.call_ring.multiple=false
 ro.telephony.ril.config=simactivation
 ro.telephony.default_network=10
+ro.telephony.ril_class=HuaweiRIL
 
 # Sensors
 ro.qualcomm.sensors.smd=true

@@ -133,6 +133,9 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touch_screen/easy_wakeup_gesture"
 # Radio
 TARGET_RIL_VARIANT := caf
 
+# RIL
+BOARD_RIL_CLASS += ../../../device/huawei/g750c/ril
+
 # Recovery
 TARGET_RECOVERY_DEVICE_MODULES := chargeled
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
